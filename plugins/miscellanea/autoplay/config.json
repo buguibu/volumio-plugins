@@ -1,0 +1,10 @@
+{
+  "enabled": {
+    "type": "boolean",
+    "value": false
+  },
+  "autoPlayUrl": {
+    "type": "string",
+    "value": "http://8503.live.streamtheworld.com:443/CLASSICFM_SC"
+  }
+}

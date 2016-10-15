@@ -31,13 +31,13 @@
     "description": "Things that cannot go in other categories",
     "plugins": [
       {
-        "name": "Random thing",
+        "name": "Autoplay",
         "version": "1.0",
-        "url": "volumio.github.io/volumio-plugins/plugins/volumio/armhf/music_service/spotify/spotify.zip",
+        "url": "",
         "license": "gpl-v3",
-        "description": "Something Random",
-        "author": "Volumio Team",
-        "updated": "23-04-2016"
+        "description": "Auto play something on start",
+        "author": "buguibu",
+        "updated": "15-10-2016"
       }
     ]
   },

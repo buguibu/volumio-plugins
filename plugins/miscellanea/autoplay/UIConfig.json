@@ -1,0 +1,34 @@
+{
+  "page": {
+    "label": "TRANSLATE.AUTOPLAY_CONFIGURATION"
+  },
+  "sections": [
+   {
+      "id": "section_account",
+      "element": "section",
+      "label": "TRANSLATE.AUTOPLAY_CONFIGURATION",
+      "icon": "fa-plug",
+      "onSave": {
+        "type":"controller", 
+        "endpoint":"miscellanea/autoplay", 
+        "method":"savePluginConfig"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.SAVE",
+        "data": [
+          "autoPlayUrl"
+        ]
+      },
+      "content": [
+        {
+          "id": "autoPlayUrl",
+          "type":"text",
+          "element": "input",
+          "doc": "The url to play when Volumio start running.",
+          "label": "TRANSLATE.AUTO_PLAY_URL",
+          "value": ""
+        }
+      ]
+   }
+  ]
+}
